@@ -1,0 +1,181 @@
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 737px)
+{
+    .food-1{
+        background-color:rgb(182, 180, 178);
+        max-width: 89%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 20px;
+        height: 300px;
+        flex-direction: row;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .food-2{
+        background-color:rgb(182, 180, 178);
+        max-width: 89%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 20px;
+        height: 300px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .food-3{
+        background-color:rgb(182, 180, 178);
+        max-width: 89%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 20px;
+        height: 300px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+}
+
+@media screen and (min-width: 738px) and (max-width: 990px)
+{
+    .food-1{
+        background-color:rgb(182, 180, 178);
+        width: 44%;
+        margin-right: 3.3%;
+        margin-left: 3.4%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 300px;
+        display:inline-block;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .food-2{
+        background-color:rgb(182, 180, 178);
+        width: 44%;
+        margin-right: 2%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 300px;
+        display:inline-block;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .food-3{
+        float: none;
+        background-color:rgb(182, 180, 178);
+        width: 90%;
+        margin-right: 2%;
+        margin-left: 5%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        height: 300px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+}
+
+@media screen and (min-width: 991px)
+{
+   .food-1{
+        background-color:rgb(182, 180, 178);
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 40px;
+        height: 300px;
+        flex-direction: row;
+        text-align: center;
+        display:inline-block ;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .food-2{
+        background-color:rgb(182, 180, 178);
+        width: 30%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 20px;
+        height: 300px;
+        flex-direction: row;
+        text-align: center;
+        display:inline-block;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .food-3{
+        background-color:rgb(182, 180, 178);
+        width: 30%;
+        margin-right: 2%;
+        margin-top: 20px;
+        height: 300px;
+        flex-direction: row;
+        text-align: center;
+        display:inline-block;
+        border-style: solid;
+        border-width: 1px;
+    }
+}
+
+.para{
+    font-size: large;
+    text-align: center;
+    align-self: flex-start;
+    text-justify: auto;
+    clear:both;
+    width:100%;
+    align-self: flex-start;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}  
+
+.dish-1{
+    background-color: rgb(231, 27, 20);
+    font-size: 35px;
+    height: 55px;
+    margin-bottom: 12px;
+    width: 35%;
+    margin-left: 65%;
+    clear: both;
+    text-align: center;
+    flex-direction: column;
+}
+
+.dish-2{
+    background-color: rgb(20, 231, 83);
+    font-size: 35px;
+    height: 55px;
+    margin-bottom: 12px;
+    width: 35%;
+    margin-left: 65%;
+    clear:right;
+    text-align: center;
+    float:none;
+}
+
+.dish-3{
+    background-color: rgb(23, 209, 223);
+    font-size: 35px;
+    height: 55px;
+    margin-bottom: 12px;
+    width: 35%;
+    margin-left: 65%;
+    clear:right;
+    text-align: center;
+    float:none;
+}

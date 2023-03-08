@@ -2,6 +2,8 @@ h1{
     text-align: center;
 }
 
+
+
 @media screen and (max-width: 737px)
 {
     .food-1{
@@ -10,7 +12,7 @@ h1{
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 20px;
-        height: 300px;
+        height: 100%;
         flex-direction: row;
         border-color: black;
         border-style: solid;
@@ -23,7 +25,7 @@ h1{
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 20px;
-        height: 300px;
+        height: 100%;
         border-color: black;
         border-style: solid;
         border-width: 1px;
@@ -35,7 +37,7 @@ h1{
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 20px;
-        height: 300px;
+        height: 100%;
         border-color: black;
         border-style: solid;
         border-width: 1px;
@@ -51,7 +53,7 @@ h1{
         margin-left: 3.4%;
         margin-top: 20px;
         margin-bottom: 20px;
-        height: 300px;
+        height: 100%;
         display:inline-block;
         border-color: black;
         border-style: solid;
@@ -64,7 +66,7 @@ h1{
         margin-right: 2%;
         margin-top: 20px;
         margin-bottom: 20px;
-        height: 300px;
+        height: 100%;
         display:inline-block;
         border-color: black;
         border-style: solid;
@@ -79,7 +81,7 @@ h1{
         margin-left: 5%;
         margin-top: 25px;
         margin-bottom: 20px;
-        height: 300px;
+        height: 100%;
         border-color: black;
         border-style: solid;
         border-width: 1px;
@@ -91,53 +93,57 @@ h1{
    .food-1{
         background-color:rgb(182, 180, 178);
         width: 30%;
-        margin-left: 2%;
-        margin-top: 40px;
-        height: 300px;
-        flex-direction: row;
-        text-align: center;
-        display:inline-block ;
-        border-color: black;
-        border-style: solid;
-        border-width: 1px;
-    }
-    .food-2{
-        background-color:rgb(182, 180, 178);
-        width: 30%;
-        margin-left: 2%;
         margin-right: 2%;
+        margin-left: 2%;
         margin-top: 20px;
-        height: 300px;
-        flex-direction: row;
-        text-align: center;
+        margin-bottom: 20px;
+        height: 100%;
         display:inline-block;
         border-color: black;
         border-style: solid;
         border-width: 1px;
+        display: inline-block;
+    }
+    .food-2{
+        background-color:rgb(182, 180, 178);
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 100%;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        display: inline-block;
     }
 
     .food-3{
         background-color:rgb(182, 180, 178);
         width: 30%;
         margin-right: 2%;
-        margin-top: 20px;
-        height: 300px;
-        flex-direction: row;
-        text-align: center;
-        display:inline-block;
+        margin-left: 2%;
+        margin-bottom: 20px;
+        height: 100%;
+        border-color: black;
         border-style: solid;
         border-width: 1px;
+        display: inline-block;
+    }
+
+    .container{
+        height: 300px;
+        padding-top: 30px;
+        justify-content: center;
+        justify-items: center;
     }
 }
 
 .para{
-    font-size: large;
+    font-size: larger;
     text-align: center;
     align-self: flex-start;
     text-justify: auto;
     clear:both;
     width:100%;
-    align-self: flex-start;
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 2%;
@@ -146,7 +152,7 @@ h1{
 
 .dish-1{
     background-color: rgb(231, 27, 20);
-    font-size: 35px;
+    font-size: xx-large;
     height: 55px;
     margin-bottom: 12px;
     width: 35%;
@@ -158,7 +164,7 @@ h1{
 
 .dish-2{
     background-color: rgb(20, 231, 83);
-    font-size: 35px;
+    font-size: xx-large;
     height: 55px;
     margin-bottom: 12px;
     width: 35%;
@@ -170,7 +176,7 @@ h1{
 
 .dish-3{
     background-color: rgb(23, 209, 223);
-    font-size: 35px;
+    font-size: xx-large;
     height: 55px;
     margin-bottom: 12px;
     width: 35%;
@@ -179,3 +185,4 @@ h1{
     text-align: center;
     float:none;
 }
+
